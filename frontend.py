@@ -1,6 +1,8 @@
 import streamlit as st
 import requests
 
+import app
+
 # Page configuration
 st.set_page_config(
     page_title="Diabetes Prediction System",
@@ -121,3 +123,4 @@ st.markdown("""
 # Footer
 st.divider()
 st.caption("Built with TensorFlow • Flask • Streamlit")
+
